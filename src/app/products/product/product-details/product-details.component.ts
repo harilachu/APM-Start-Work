@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { IProduct } from '../Interfaces/product';
+import { IProduct } from '../../../Interfaces/product';
 import { ProductService } from '../Services/product.service';
 import { Subscription } from 'rxjs';
 

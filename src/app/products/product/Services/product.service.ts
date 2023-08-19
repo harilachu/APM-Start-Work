@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { IProduct } from '../Interfaces/product';
-import productsJson from '../../api/products/products.json';
+import { IProduct } from '../../../Interfaces/product';
+import productsJson from '../../../../api/products/products.json';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, ObservableInput, of, throwError } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
